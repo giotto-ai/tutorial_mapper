@@ -9,7 +9,7 @@ You can find our blog post at this [link] (TODO: add link)
 
 ## Data
 
-We applied the algorithm on a dataset containing 5000 3-dimensional observations sampled from a Santa Claus shape. 
+We applied the algorithm on a dataset containing 20<sup> </sup>000 3-dimensional observations sampled from a Santa Claus shape. 
 
 The dataset has been sampled from a mesh object available [here](https://free3d.com/3d-model/santa-clau-77751.html) through the usage of [CloudCompare](https://www.cloudcompare.org). 
 If If you could be interested, the notebook "_generate_data.ipynb" shows how to generate the file data.csv.
