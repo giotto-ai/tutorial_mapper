@@ -9,10 +9,10 @@ The purpose of this project is to showcase the usage of the [Mapper algorithm](h
 
 ## Getting started
 
-Spin up a virtual environment and install the required libraries:
+Spin up a conda environment and install the required libraries:
 
 ```
-virtualenv -p python3.7 env
+conda create -n giotto-mapper python=3.7 && conda activate giotto-mapper
 pip install -r requirements.txt
 ```
 
