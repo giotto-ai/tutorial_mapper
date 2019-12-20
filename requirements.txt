@@ -1,4 +1,5 @@
 giotto-learn-nightly
+python-igraph >= 0.7.1.post6
 pandas>=0.25.1
 numpy>=1.17.2
 plotly>=4.4.1
