@@ -4,7 +4,7 @@
 
 ## What is it?
 
-The purpose of this project is to showcase the usage of the [Mapper algorithm](https://research.math.osu.edu/tgda/mapperPBG.pdf) provided by the [Giotto](https://giotto.ai) Python library. 
+The purpose of this project is to showcase the usage of the [Mapper algorithm](https://research.math.osu.edu/tgda/mapperPBG.pdf) provided by the [Giotto](https://giotto.ai) Python library.
 
 
 ## Getting started
@@ -19,9 +19,9 @@ pip install -r requirements.txt
 
 ## Data
 
-We applied the Mapper algorithm on a dataset containing 20<sup> </sup>000 3-dimensional observations sampled from a Santa Claus shape. 
+We applied the Mapper algorithm on a dataset containing 20<sup> </sup>000 3-dimensional observations sampled from a Santa Claus shape.
 
-The dataset has been sampled from a mesh object available [here](https://free3d.com/3d-model/santa-clau-77751.html) through the usage of [CloudCompare](https://www.cloudcompare.org). 
+The dataset has been sampled from a mesh object available [here](https://free3d.com/3d-model/santa-clau-77751.html) through the usage of [CloudCompare](https://www.cloudcompare.org).
 
 
 ## Notebook overview
@@ -32,5 +32,13 @@ All the analyses are performed in the notebook "Christmas Mapper.ipynb". We brie
 - covering
 - clustering method
 
-
 Enjoy!
+
+## Requirements
+In order to run the notebook, the following python packages are required:
+
+- giotto-learn-nightly
+- pandas>=0.25.1
+- numpy>=1.17.2
+- plotly>=4.4.1
+- scikit-learn>=0.22
