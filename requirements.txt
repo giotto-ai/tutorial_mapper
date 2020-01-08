@@ -3,5 +3,5 @@ python-igraph >= 0.7.1.post6
 pandas>=0.25.1
 numpy>=1.17.2
 plotly>=4.4.1
-scikit-learn>=0.22
 ipywidgets>=7.5.1
+scikit-learn==0.22
