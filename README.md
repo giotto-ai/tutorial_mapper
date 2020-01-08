@@ -17,6 +17,34 @@ conda install jupyter -y
 pip install -r requirements.txt
 ```
 
+## JupyterLab setup
+To see the Plotly graphs in JupyterLab, some [extra steps](https://github.com/plotly/plotly.py) are required:
+```bash
+# Avoid "JavaScript heap out of memory" errors during extension installation
+# (OS X/Linux)
+export NODE_OPTIONS=--max-old-space-size=4096
+# (Windows)
+set NODE_OPTIONS=--max-old-space-size=4096
+
+# Jupyter widgets extension
+jupyter labextension install @jupyter-widgets/jupyterlab-manager@1.1 --no-build
+
+# FigureWidget support
+jupyter labextension install plotlywidget@1.4.0 --no-build
+
+# and jupyterlab renderer support
+jupyter labextension install jupyterlab-plotly@1.4.0 --no-build
+
+# Build extensions (must be done to activate extensions since --no-build is used above)
+jupyter lab build
+
+# Unset NODE_OPTIONS environment variable
+# (OS X/Linux)
+unset NODE_OPTIONS
+# (Windows)
+set NODE_OPTIONS=
+```
+After running these steps, deactivate and reactivate your conda environment before spinning up JupyterLab.
 
 ## Data
 
