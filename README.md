@@ -66,9 +66,5 @@ Enjoy!
 ## Requirements
 In order to run the notebook, the following python packages are required:
 
-- giotto-learn-nightly
+- giotto-tda>=0.1.4
 - pandas>=0.25.1
-- numpy>=1.17.2
-- plotly>=4.4.1
-- scikit-learn>=0.22
-- python-igraph
