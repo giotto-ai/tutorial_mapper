@@ -1,10 +1,10 @@
-<img src="https://www.giotto.ai/static/vector/logo.svg" alt="logo" width="850"/>
+![logo]{https://raw.githubusercontent.com/giotto-ai/giotto-tda/master/doc/images/tda_logo.svg}
 
 # Mapper Tutorial - the Santa Cloud
 
 ## What is it?
 
-The purpose of this project is to showcase the usage of the [Mapper algorithm](https://research.math.osu.edu/tgda/mapperPBG.pdf) provided by the [Giotto](https://giotto.ai) Python library.
+The purpose of this project is to showcase the usage of the [Mapper algorithm](https://research.math.osu.edu/tgda/mapperPBG.pdf) provided by the [Giotto](https://giotto.ai) Python library. Have a look at our [blog post](https://towardsdatascience.com/visualising-high-dimensional-data-with-giotto-mapper-897fcdb575d7) for more information.
 
 
 ## Getting started
