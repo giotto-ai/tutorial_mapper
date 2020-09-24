@@ -1,4 +1,4 @@
-![logo]{https://raw.githubusercontent.com/giotto-ai/giotto-tda/master/doc/images/tda_logo.svg}
+![logo](https://raw.githubusercontent.com/giotto-ai/giotto-tda/master/doc/images/tda_logo.svg)
 
 # Mapper Tutorial - the Santa Cloud
 
